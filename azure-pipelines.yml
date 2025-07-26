@@ -31,5 +31,5 @@ stages:
               echo "Deploying Bicep to Azure..."
               az deployment group create \
                 --resource-group bicep-app \
-                --template-file ./main.bicep \
+                --template-file .Infrastructure/main.bicep \
                 --parameters environment='dev' location='uksouth'
