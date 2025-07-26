@@ -3,7 +3,7 @@ param location string = resourceGroup().location
 param environment string
 
 
-module webApp './webAppModule.bicep' = {
+module webApp './webappModule.bicep' = {
   name: 'deployWebApp-${environment}'
   params: {
     location: location
