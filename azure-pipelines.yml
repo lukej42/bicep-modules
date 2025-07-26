@@ -32,4 +32,4 @@ stages:
               az deployment group create \
                 --resource-group bicep-app \
                 --template-file ./Infrastructure/main.bicep \
-                --parameters environment='dev' location='uksouth'
+                --parameters environment='ljg-dev' location='uksouth'
