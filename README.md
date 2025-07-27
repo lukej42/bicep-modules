@@ -1,2 +1,16 @@
-﻿# Bicep-modules
-Professionally, as I was required to spin up more and more App Services during a transition period (to Azure), I made use more and more of Bicep to ensure environments were both consistent and created efficiently.
+# bicep-modules
+
+## Overview
+
+This repository contains modular Bicep templates for deploying reusable and maintainable Azure infrastructure components. Each module focuses on a specific Azure resource or service, enabling easy composition of complex environments using Infrastructure as Code (IaC).
+
+---
+
+## Features
+
+- Modular and reusable Bicep templates  
+- Parameterized inputs for flexible deployments  
+- Designed to be composed into larger infrastructure stacks  
+- Follows Azure Bicep best practices for maintainability and scalability  
+
+---
