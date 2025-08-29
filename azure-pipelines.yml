@@ -10,7 +10,7 @@ pool:
 
 variables:
   location: 'uksouth'
-  resourceGroup: 'bicep-app'
+  resourceGroup: 'armbicep'
 
 stages:
   - stage: Deploy
@@ -20,7 +20,7 @@ stages:
         - checkout: self
         - task: AzureCLI@2
           inputs:
-            azureSubscription: 'Azure subscription 1()'
+            azureSubscription: 'Azure subscription 1(1)(525c7c1f-f5e9-4bf4-8d7a-5b7a06889a12)'
             scriptType: 'bash'
             scriptLocation: 'inlineScript'
             inlineScript: |
